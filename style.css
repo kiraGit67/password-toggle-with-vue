@@ -1,0 +1,44 @@
+html,
+* {
+  font-size: 20px;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  margin-right: 0.5rem;
+  font-size: 1.5rem;
+  padding: 0.25rem 0.5rem;
+  background-color: transparent;
+  border: 2px solid black;
+}
+
+button {
+  font-size: 1.65rem;
+  padding: 0.25rem 0.75rem;
+  background-color: transparent;
+  border: 3px solid;
+}
+
+.to-hide {
+  color: red;
+  border-color: red;
+}
+
+.to-show {
+  color: green;
+  border-color: green;
+}
